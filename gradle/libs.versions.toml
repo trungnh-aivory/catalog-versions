@@ -63,6 +63,4 @@ admob-vungle-adapter = { module = "com.google.ads.mediation:vungle", version.ref
 [plugins]
 
 android-application = { id = "com.android.application", version.ref = "agp" }
-android-library = { id = "com.android.library", version.ref = "agp" }
-
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
