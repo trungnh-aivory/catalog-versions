@@ -13,9 +13,8 @@ facebook = "18.2.3"
 # Aivory SDKs
 aivory-ads = "3.0.0-alpha11"
 aivory-analytics = "1.0.0"
-aivory-firstopen = "1.0.6-alpha08"
+aivory-firstopen = "1.0.6-alpha09"
 aivory-core = "1.0.4-alpha16"
-aivory-rating = "1.0.0-alpha08"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.1.51.0"
@@ -50,8 +49,6 @@ aivory-analytics = { module = "app.aivory:analytics", version.ref = "aivory-anal
 aivory-firstopen = { module = "app.aivory:firstopen", version.ref = "aivory-firstopen" }
 aivory-firstopen-ksp = { module = "app.aivory:firstopen-ksp", version.ref = "aivory-firstopen" }
 aivory-core = { module = "app.aivory.android:core", version.ref = "aivory-core" }
-aivory-rating = { module = "app.aivory:rating", version.ref = "aivory-rating" }
-
 
 # ----------------
 # Admob mediation adapter
