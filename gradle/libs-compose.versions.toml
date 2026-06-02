@@ -7,9 +7,6 @@ kotlin = "2.3.21"
 # Logging
 timber = "5.0.1"
 
-# Facebook
-facebook = "18.2.3"
-
 # Aivory SDKs
 aivory-ads = "3.0.0-alpha15"
 aivory-analytics = "1.0.0"
@@ -30,14 +27,6 @@ admob-vungle-adapter = "7.7.4.0"
 # ----------------
 
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
-
-
-# ----------------
-# Facebook
-# ----------------
-
-facebook-sdk = { module = "com.facebook.android:facebook-android-sdk", version.ref = "facebook" }
-
 
 # ----------------
 # Aivory
