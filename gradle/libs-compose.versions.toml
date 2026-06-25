@@ -8,15 +8,15 @@ kotlin = "2.3.21"
 timber = "5.0.1"
 
 # Aivory SDKs
-aivory-ads = "3.0.1-alpha08"
+aivory-ads = "3.0.1-alpha09"
 aivory-analytics = "1.0.0"
-aivory-firstopen = "1.0.0-alpha15"
+aivory-firstopen = "1.0.0-alpha16"
 aivory-core = "1.0.0-alpha09"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.1.61.0"
 admob-pangle-adapter = "8.1.0.3.0"
-admob-applovin-adapter = "13.6.2.0"
+admob-applovin-adapter = "13.6.2.1"
 admob-facebook-adapter = "6.21.0.3"
 admob-vungle-adapter = "7.7.4.1"
 
