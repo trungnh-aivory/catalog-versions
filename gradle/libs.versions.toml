@@ -18,7 +18,7 @@ admob-mintegral-adapter = "17.1.61.1"
 admob-pangle-adapter = "8.1.0.4.0"
 admob-applovin-adapter = "13.6.3.0"
 admob-facebook-adapter = "6.21.0.3"
-admob-vungle-adapter = "7.7.4.2"
+admob-bigo-adapter = "5.9.0.1"
 
 [libraries]
 
@@ -45,7 +45,7 @@ admob-applovin-adapter = { module = "com.google.ads.mediation:applovin", version
 admob-facebook-adapter = { module = "com.google.ads.mediation:facebook", version.ref = "admob-facebook-adapter" }
 admob-mintegral-adapter = { module = "com.google.ads.mediation:mintegral", version.ref = "admob-mintegral-adapter" }
 admob-pangle-adapter = { module = "com.google.ads.mediation:pangle", version.ref = "admob-pangle-adapter" }
-admob-vungle-adapter = { module = "com.google.ads.mediation:vungle", version.ref = "admob-vungle-adapter" }
+admob-bigo-adapter = { module = "com.google.ads.mediation:bigo", version.ref = "admob-bigo-adapter" }
 
 
 [plugins]
