@@ -15,10 +15,10 @@ aivory-core = "1.0.0-alpha09"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.1.61.1"
-admob-pangle-adapter = "8.1.0.4.0"
+admob-pangle-adapter = "8.1.0.5.0"
 admob-applovin-adapter = "13.6.3.0"
-admob-facebook-adapter = "6.21.0.3"
-admob-bigo-adapter = "5.9.0.1"
+admob-facebook-adapter = "6.21.0.4"
+admob-bigo-adapter = "5.10.1.0"
 
 [libraries]
 
