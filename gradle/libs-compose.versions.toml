@@ -1,8 +1,8 @@
 [versions]
 
 # Build
-agp = "9.2.1"
-kotlin = "2.4.0"
+agp = "9.3.0"
+kotlin = "2.4.10"
 
 # Logging
 timber = "5.0.1"
