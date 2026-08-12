@@ -10,7 +10,7 @@ timber = "5.0.1"
 # Aivory SDKs
 aivory-ads = "3.0.2-alpha06"
 aivory-analytics = "2.0.4"
-aivory-firstopen = "2.0.0-alpha12"
+aivory-firstopen = "2.0.0-alpha13"
 aivory-core = "1.0.0-alpha09"
 
 # Admob mediation adapter
