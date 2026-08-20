@@ -8,7 +8,7 @@ kotlin = "2.4.10"
 timber = "5.0.1"
 
 # Aivory SDKs
-aivory-ads = "3.0.2-alpha07"
+aivory-ads = "3.0.2-alpha08"
 aivory-analytics = "2.0.4"
 aivory-firstopen = "2.0.0-alpha17"
 aivory-core = "1.0.0-alpha09"
