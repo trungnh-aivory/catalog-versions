@@ -12,6 +12,7 @@ aivory-ads = "3.1.0-alpha02"
 aivory-analytics = "2.0.4"
 aivory-firstopen = "2.0.1-alpha01"
 aivory-core = "1.0.0-alpha09"
+aivory-billing = "1.0.0"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.1.71.0"
@@ -38,7 +39,7 @@ aivory-analytics = { module = "app.aivory:analytics", version.ref = "aivory-anal
 aivory-firstopen = { module = "app.aivory:firstopen-compose", version.ref = "aivory-firstopen" }
 aivory-firstopen-ksp = { module = "app.aivory:firstopen-ksp-compose", version.ref = "aivory-firstopen" }
 aivory-core = { module = "app.aivory.android:core-compose", version.ref = "aivory-core" }
-
+aivory-billing = { module = "app.aivory:billing", version.ref = "aivory-billing" }
 
 # ----------------
 # Admob mediation adapter
