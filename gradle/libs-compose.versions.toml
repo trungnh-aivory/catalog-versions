@@ -2,7 +2,7 @@
 
 # Build
 agp = "9.3.0"
-kotlin = "2.4.10"
+kotlin = "2.4.20"
 
 # Logging
 timber = "5.0.1"
@@ -16,7 +16,7 @@ aivory-billing = "1.0.0"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.1.81.0"
-admob-pangle-adapter = "8.2.0.4.0"
+admob-pangle-adapter = "8.3.0.3.0"
 admob-applovin-adapter = "13.6.4.1"
 admob-facebook-adapter = "6.22.0.1"
 admob-bigo-adapter = "6.0.0.0"
