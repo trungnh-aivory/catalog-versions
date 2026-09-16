@@ -2,7 +2,7 @@
 
 # Build
 agp = "9.3.0"
-kotlin = "2.4.10"
+kotlin = "2.4.20"
 
 # Logging
 timber = "5.0.1"
