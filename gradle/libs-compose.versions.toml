@@ -13,7 +13,7 @@ aivory-analytics = "2.0.4"
 aivory-firstopen = "2.0.1-alpha14"
 aivory-core = "1.0.0-alpha09"
 aivory-billing = "1.3.0"
-aivory-notification = 2.0.1
+aivory-notification = "2.0.1"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.1.81.1"
