@@ -8,19 +8,19 @@ kotlin = "2.4.20"
 timber = "5.0.1"
 
 # Aivory SDKs
-aivory-ads = "3.2.1-alpha03"
+aivory-ads = "3.2.1-alpha04"
 aivory-analytics = "2.0.4"
-aivory-firstopen = "2.0.1-alpha16"
+aivory-firstopen = "2.0.1-alpha19"
 aivory-core = "1.0.0-alpha09"
 aivory-billing = "1.3.0"
-aivory-notification = "2.1.0"
+aivory-notification = "1.2.0"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.1.81.1"
 admob-pangle-adapter = "8.3.0.4.0"
 admob-applovin-adapter = "13.6.4.2"
 admob-facebook-adapter = "6.22.0.1"
-admob-bigo-adapter = "6.0.0.1"
+admob-bigo-adapter = "6.1.0.0"
 
 [libraries]
 
@@ -41,7 +41,7 @@ aivory-firstopen = { module = "app.aivory:firstopen-compose", version.ref = "aiv
 aivory-firstopen-ksp = { module = "app.aivory:firstopen-ksp-compose", version.ref = "aivory-firstopen" }
 aivory-core = { module = "app.aivory.android:core-compose", version.ref = "aivory-core" }
 aivory-billing = { module = "app.aivory:billing", version.ref = "aivory-billing" }
-aivory-notification = { group = "app.aivory", name = "local-notification", version.ref = "aivory-notification" }
+aivory-notification = { group = "app.aivory", name = "aivory-notification", version.ref = "aivory-notification" }
 
 # ----------------
 # Admob mediation adapter
