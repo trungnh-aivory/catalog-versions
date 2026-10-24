@@ -9,11 +9,12 @@ timber = "5.0.1"
 
 # Aivory SDKs
 aivory-ads = "3.2.2-alpha01"
-aivory-analytics = "2.0.4"
+aivory-analytics = "2.0.5"
 aivory-firstopen = "2.0.2-alpha01"
 aivory-core = "1.0.0-alpha09"
-aivory-billing = "1.6.1"
-aivory-notification = "1.2.0"
+aivory-billing = "1.6.2"
+aivory-notification = "2.0.1"
+aivory-auth = "1.0.1"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.1.81.1"
@@ -42,6 +43,7 @@ aivory-firstopen-ksp = { module = "app.aivory:firstopen-ksp-compose", version.re
 aivory-core = { module = "app.aivory.android:core-compose", version.ref = "aivory-core" }
 aivory-billing = { module = "app.aivory:billing", version.ref = "aivory-billing" }
 aivory-notification = { group = "app.aivory", name = "aivory-notification", version.ref = "aivory-notification" }
+aivory-auth = { group = "app.aivory", name = "aivory-auth", version.ref = "aivory-auth" }
 
 # ----------------
 # Admob mediation adapter
