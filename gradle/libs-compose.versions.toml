@@ -56,10 +56,10 @@ admob-mintegral-adapter = { module = "com.google.ads.mediation:mintegral", versi
 admob-pangle-adapter = { module = "com.google.ads.mediation:pangle", version.ref = "admob-pangle-adapter" }
 admob-bigo-adapter = { module = "com.google.ads.mediation:bigo", version.ref = "admob-bigo-adapter" }
 admob-unity-adapter = { module = "com.google.ads.mediation:unity", version.ref = "admob-unity-adapter" }
-admob-unity-ads-sdk = { module = "com.unity3d.ads:unity-ads", version.ref = "unity-ads-sdk" }
+admob-unity-ads-sdk = { module = "com.unity3d.ads:unity-ads", version.ref = "admob-unity-ads-sdk" }
 
 [bundles]
-admob-mediation = ["admob-applovin-adapter", "admob-facebook-adapter", "admob-mintegral-adapter", "admob-pangle-adapter", "admob-bigo-adapter", "admob-unity-adapter", "unity-ads-sdk"]
+admob-mediation = ["admob-applovin-adapter", "admob-facebook-adapter", "admob-mintegral-adapter", "admob-pangle-adapter", "admob-bigo-adapter", "admob-unity-adapter", "admob-unity-ads-sdk"]
 
 
 [plugins]
