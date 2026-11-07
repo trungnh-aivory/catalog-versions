@@ -23,7 +23,7 @@ admob-applovin-adapter = "13.7.0.0"
 admob-facebook-adapter = "6.22.0.1"
 admob-bigo-adapter = "6.2.0.0"
 admob-unity-adapter = "4.21.0.0"
-unity-ads-sdk = "4.21.0"
+admob-unity-ads-sdk = "4.21.0"
 
 [libraries]
 
@@ -55,13 +55,10 @@ admob-facebook-adapter = { module = "com.google.ads.mediation:facebook", version
 admob-mintegral-adapter = { module = "com.google.ads.mediation:mintegral", version.ref = "admob-mintegral-adapter" }
 admob-pangle-adapter = { module = "com.google.ads.mediation:pangle", version.ref = "admob-pangle-adapter" }
 admob-bigo-adapter = { module = "com.google.ads.mediation:bigo", version.ref = "admob-bigo-adapter" }
-# Unity: khi thêm admob-unity-adapter phải thêm cả unity-ads-sdk (đã có sẵn trong libs.bundles.admob.mediation)
 admob-unity-adapter = { module = "com.google.ads.mediation:unity", version.ref = "admob-unity-adapter" }
-unity-ads-sdk = { module = "com.unity3d.ads:unity-ads", version.ref = "unity-ads-sdk" }
+admob-unity-ads-sdk = { module = "com.unity3d.ads:unity-ads", version.ref = "unity-ads-sdk" }
 
 [bundles]
-
-# Toàn bộ AdMob mediation adapter (Unity gồm cả adapter + Unity Ads SDK)
 admob-mediation = ["admob-applovin-adapter", "admob-facebook-adapter", "admob-mintegral-adapter", "admob-pangle-adapter", "admob-bigo-adapter", "admob-unity-adapter", "unity-ads-sdk"]
 
 
