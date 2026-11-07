@@ -17,12 +17,11 @@ aivory-notification = "2.2.0"
 aivory-auth = "1.1.0"
 
 # Admob mediation adapter
-admob-mintegral-adapter = "17.1.91.0"
+admob-mintegral-adapter = "17.2.21.0"
 admob-pangle-adapter = "8.4.0.5.0"
-admob-applovin-adapter = "13.6.4.2"
+admob-applovin-adapter = "13.7.0.0"
 admob-facebook-adapter = "6.22.0.1"
-admob-bigo-adapter = "6.1.0.0"
-# Unity: adapter luôn đi kèm Unity Ads SDK, nâng cấp thì cập nhật cả 2 version
+admob-bigo-adapter = "6.2.0.0"
 admob-unity-adapter = "4.21.0.0"
 unity-ads-sdk = "4.21.0"
 
