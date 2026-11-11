@@ -15,15 +15,6 @@ aivory-billing = "1.6.3"
 aivory-notification = "2.2.1"
 aivory-auth = "1.1.1"
 
-# Admob mediation adapter
-admob-mintegral-adapter = "17.2.21.0"
-admob-pangle-adapter = "8.4.0.5.0"
-admob-applovin-adapter = "13.7.0.0"
-admob-facebook-adapter = "6.22.0.1"
-admob-bigo-adapter = "6.2.0.0"
-admob-unity-adapter = "4.21.0.0"
-admob-unity-ads-sdk = "4.21.0"
-
 [libraries]
 
 # ----------------
@@ -47,20 +38,7 @@ aivory-billing = { module = "app.aivory:billing", version.ref = "aivory-billing"
 aivory-notification = { group = "app.aivory", name = "aivory-notification", version.ref = "aivory-notification" }
 aivory-auth = { group = "app.aivory", name = "aivory-auth", version.ref = "aivory-auth" }
 
-# ----------------
-# Admob mediation adapter
-# ----------------
-admob-applovin-adapter = { module = "com.google.ads.mediation:applovin", version.ref = "admob-applovin-adapter" }
-admob-facebook-adapter = { module = "com.google.ads.mediation:facebook", version.ref = "admob-facebook-adapter" }
-admob-mintegral-adapter = { module = "com.google.ads.mediation:mintegral", version.ref = "admob-mintegral-adapter" }
-admob-pangle-adapter = { module = "com.google.ads.mediation:pangle", version.ref = "admob-pangle-adapter" }
-admob-bigo-adapter = { module = "com.google.ads.mediation:bigo", version.ref = "admob-bigo-adapter" }
-admob-unity-adapter = { module = "com.google.ads.mediation:unity", version.ref = "admob-unity-adapter" }
-admob-unity-ads-sdk = { module = "com.unity3d.ads:unity-ads", version.ref = "admob-unity-ads-sdk" }
-
-[bundles]
-admob-mediation = ["admob-applovin-adapter", "admob-facebook-adapter", "admob-mintegral-adapter", "admob-pangle-adapter", "admob-bigo-adapter", "admob-unity-adapter", "admob-unity-ads-sdk"]
-
+# AdMob mediation adapters are not listed: app.aivory.monet:ads ships them since 3.2.3-alpha08.
 
 [plugins]
 
