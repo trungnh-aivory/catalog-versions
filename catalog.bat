@@ -9,8 +9,8 @@
   Requires: Windows PowerShell 5+ or PowerShell 7+, internet access.
 #>
 
-$URL_DEFAULT = "https://raw.githubusercontent.com/trungnh-rikkei/catalog-versions/main/gradle/libs.versions.toml"
-$URL_COMPOSE = "https://raw.githubusercontent.com/trungnh-rikkei/catalog-versions/main/gradle/libs-compose.versions.toml"
+$URL_DEFAULT = "https://raw.githubusercontent.com/trungnh-aivory/catalog-versions/main/gradle/libs.versions.toml"
+$URL_COMPOSE = "https://raw.githubusercontent.com/trungnh-aivory/catalog-versions/main/gradle/libs-compose.versions.toml"
 
 $ConnectTimeout = 10000
 $ReadTimeout    = 30000

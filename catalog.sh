@@ -8,8 +8,8 @@
 
 set -euo pipefail
 
-URL_DEFAULT="https://raw.githubusercontent.com/trungnh-rikkei/catalog-versions/main/gradle/libs.versions.toml"
-URL_COMPOSE="https://raw.githubusercontent.com/trungnh-rikkei/catalog-versions/main/gradle/libs-compose.versions.toml"
+URL_DEFAULT="https://raw.githubusercontent.com/trungnh-aivory/catalog-versions/main/gradle/libs.versions.toml"
+URL_COMPOSE="https://raw.githubusercontent.com/trungnh-aivory/catalog-versions/main/gradle/libs-compose.versions.toml"
 
 CONNECT_TIMEOUT=10
 READ_TIMEOUT=30
