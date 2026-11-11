@@ -8,13 +8,12 @@ kotlin = "2.4.21"
 timber = "5.0.1"
 
 # Aivory SDKs
-aivory-ads = "3.2.3-alpha08"
-aivory-analytics = "3.0.0"
-aivory-firstopen = "2.0.2-alpha10"
+aivory-ads = "3.3.0-alpha01"
+aivory-analytics = "3.0.1"
 aivory-core = "1.0.0-alpha09"
-aivory-billing = "1.6.2"
-aivory-notification = "2.2.0"
-aivory-auth = "1.1.0"
+aivory-billing = "1.6.3"
+aivory-notification = "2.2.1"
+aivory-auth = "1.1.1"
 
 # Admob mediation adapter
 admob-mintegral-adapter = "17.2.21.0"
@@ -40,8 +39,9 @@ timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 aivory-ads = { module = "app.aivory.monet:ads", version.ref = "aivory-ads" }
 aivory-ads-ui-compose = { module = "app.aivory.monet:ads-ui-compose", version.ref = "aivory-ads" }
 aivory-analytics = { module = "app.aivory:analytics", version.ref = "aivory-analytics" }
-aivory-firstopen = { module = "app.aivory:firstopen-compose", version.ref = "aivory-firstopen" }
-aivory-firstopen-ksp = { module = "app.aivory:firstopen-ksp-compose", version.ref = "aivory-firstopen" }
+# First Open lives in the ads repository since 3.3.0-alpha01 and always shares its version
+aivory-firstopen = { module = "app.aivory.monet:first-open", version.ref = "aivory-ads" }
+aivory-firstopen-ksp = { module = "app.aivory.monet:first-open-ksp", version.ref = "aivory-ads" }
 aivory-core = { module = "app.aivory.android:core-compose", version.ref = "aivory-core" }
 aivory-billing = { module = "app.aivory:billing", version.ref = "aivory-billing" }
 aivory-notification = { group = "app.aivory", name = "aivory-notification", version.ref = "aivory-notification" }
