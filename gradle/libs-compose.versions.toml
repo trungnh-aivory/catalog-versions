@@ -9,9 +9,9 @@ timber = "5.0.1"
 
 # Aivory SDKs
 aivory-ads = "3.3.0-alpha03"
-aivory-analytics = "3.0.1"
+aivory-analytics = "3.1.0"
 aivory-core = "1.0.0-alpha09"
-aivory-billing = "1.6.3"
+aivory-billing = "2.0.0"
 aivory-notification = "2.2.1"
 aivory-auth = "1.1.1"
 
